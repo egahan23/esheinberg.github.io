@@ -1,0 +1,44 @@
+{{ define "main" }}
+<header class="hero">
+  <div class="hero-grid">
+    <img class="hero-photo" src="{{ site.Params.photo | relURL }}" alt="Portrait of {{ site.Params.author }}" width="180" height="180">
+    <div class="hero-text">
+      <h1 class="hero-name">{{ site.Params.author }}, <span class="nowrap">{{ site.Params.credentials }}</span></h1>
+      <p class="hero-role">{{ site.Params.position }}</p>
+      <p class="hero-affil">{{ site.Params.department }}</p>
+      <p class="hero-advisor">Advised by {{ site.Params.advisor }}</p>
+      <p class="hero-tagline">{{ site.Params.tagline }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ site.Params.cv | relURL }}" target="_blank" rel="noopener">Curriculum Vitae</a>
+        <a class="btn" href="mailto:{{ site.Params.email }}">Email</a>
+        <a class="btn" href="{{ site.Params.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="section" aria-labelledby="about-h">
+  <h2 class="section-title" id="about-h">About</h2>
+  <div class="prose">{{ .Content }}</div>
+  {{ with site.Params.interests }}
+  <ul class="interests" aria-label="Research interests">
+    {{ range . }}<li>{{ . }}</li>{{ end }}
+  </ul>
+  {{ end }}
+</section>
+{{ with hugo.Data.education }}
+<section class="section" aria-labelledby="edu-h">
+  <h2 class="section-title" id="edu-h">Education</h2>
+  <ul class="rows">
+  {{ range . }}<li><span><span class="item-title">{{ .degree }}</span><br><span class="muted">{{ .institution }}</span></span><span class="year">{{ .year }}</span></li>{{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ with hugo.Data.awards }}
+<section class="section" aria-labelledby="awards-h">
+  <h2 class="section-title" id="awards-h">Fellowships &amp; Awards</h2>
+  <ul class="rows">
+  {{ range . }}<li><span>{{ .name }}</span><span class="year">{{ .year }}</span></li>{{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}

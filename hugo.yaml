@@ -1,0 +1,65 @@
+baseURL: "https://egahan23.github.io/esheinberg.github.io/"
+title: "Elise Sheinberg"
+locale: en-us
+enableRobotsTXT: false
+
+params:
+  author: "Elise Sheinberg"
+  credentials: "MPH, RDN"
+  description: "PhD Candidate, Population Health Sciences (Public Health Nutrition), Harvard T.H. Chan School of Public Health"
+  tagline: "I study how federal nutrition programs affect food security, diet quality, and chronic disease."
+  position: "PhD Candidate, Population Health Sciences (Public Health Nutrition)"
+  department: "Department of Nutrition, Harvard T.H. Chan School of Public Health"
+  institution: "Harvard T.H. Chan School of Public Health"
+  email: "esheinberg@g.harvard.edu"
+  linkedin: "https://www.linkedin.com/in/elise-sheinberg/"
+  photo: "images/photo.jpg"
+  cv: "files/cv.pdf"
+  advisor: "Cindy W. Leung, ScD, MPH"
+  interests:
+    - "Supplemental Nutrition Assistance Program (SNAP)"
+    - "Nutrition incentive programs"
+    - "Food and nutrition security"
+    - "Program evaluation"
+    - "Qualitative methods"
+    - "Implementation science"
+  mysite:
+    credit: true      # footer credit line; set to false to remove
+    discovery: true   # invisible generator meta + schema.org Person; set to false to remove
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: ""
+      weight: 10
+    - identifier: research
+      name: Research
+      url: "research/"
+      weight: 20
+    - identifier: teaching
+      name: Teaching
+      url: "teaching/"
+      weight: 30
+    - identifier: policy
+      name: "Policy & Practice"
+      url: "policy/"
+      weight: 40
+    - identifier: cv
+      name: CV
+      url: "files/cv.pdf"
+      weight: 50
+    - identifier: contact
+      name: Contact
+      url: "contact/"
+      weight: 60
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+sitemap:
+  changeFreq: monthly
+
+disableKinds: ["taxonomy", "term", "RSS"]

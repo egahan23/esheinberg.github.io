@@ -1,0 +1,9 @@
+{{- $out := slice -}}
+{{- range . -}}
+  {{- if or (eq . "Sheinberg, E.") (eq . "Gahan, E.") -}}
+    {{- $out = $out | append (printf "<strong>%s</strong>" .) -}}
+  {{- else -}}
+    {{- $out = $out | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- delimit $out ", " | safeHTML -}}

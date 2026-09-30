@@ -1,0 +1,56 @@
+{{ $working := where hugo.Data.papers "status" "ne" "published" }}
+{{ $published := where hugo.Data.papers "status" "published" }}
+{{ with $working }}
+<section class="section">
+  <h2 class="section-title" id="working-papers">Working Papers</h2>
+  <ul class="pubs">
+  {{ range . }}
+    <li>
+      {{ partial "author-list.html" .authors }}.
+      {{ if .pdf }}<a href="{{ .pdf | relURL }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}<span class="pub-title">{{ .title }}</span>{{ end }}
+      <span class="badge">{{ .status }}</span>{{ with .venue }} <span class="muted">{{ . }}</span>{{ end }}
+      {{ with .description }}<br><span class="muted">{{ . }}</span>{{ end }}
+    </li>
+  {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ with $published }}
+<section class="section">
+  <h2 class="section-title" id="publications">Publications</h2>
+  <ol class="pubs" reversed>
+  {{ range . }}
+    <li>
+      {{ partial "author-list.html" .authors }} ({{ .year }}).
+      {{ if .pdf }}<a href="{{ .pdf | relURL }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}.
+      <em>{{ .venue }}</em>{{ with .citation }}, {{ . }}{{ end }}.
+      {{ with .link }}<a class="doi" href="{{ . }}" target="_blank" rel="noopener">{{ replaceRE "^https://doi.org/" "doi:" . }}</a>{{ end }}
+    </li>
+  {{ end }}
+  </ol>
+  <p class="note">Papers published before 2024 appear under my former name, Elise Gahan.</p>
+</section>
+{{ end }}
+{{ with hugo.Data.reports }}
+<section class="section">
+  <h2 class="section-title" id="reports">Reports</h2>
+  <ul class="pubs">
+  {{ range . }}
+    <li>
+      {{ partial "author-list.html" .authors }} ({{ .year }}).
+      <a href="{{ (.pdf | default .link) | relURL }}" target="_blank" rel="noopener">{{ .title }}</a>. {{ .venue }}.
+    </li>
+  {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ with hugo.Data.presentations }}
+<section class="section">
+  <h2 class="section-title" id="presentations">Presentations</h2>
+  <ul class="plain">
+  {{ range . }}
+    <li><span class="item-title">{{ .title }}</span><br><span class="muted">{{ .type }}, {{ .venue }}, {{ .date }}</span></li>
+  {{ end }}
+  </ul>
+</section>
+{{ end }}

@@ -1,0 +1,7 @@
+{{ with hugo.Data.teaching }}
+<ul class="plain">
+{{ range . }}
+  <li><span class="item-title">{{ .course }}</span><br><span class="muted">{{ .role }}, {{ .institution }}, {{ .term }}</span></li>
+{{ end }}
+</ul>
+{{ end }}

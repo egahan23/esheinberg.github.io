@@ -1,0 +1,11 @@
+# Elise Sheinberg, MPH, RDN
+
+Elise Sheinberg is a fourth-year PhD candidate in Population Health Sciences (Public Health Nutrition) in the Department of Nutrition at the Harvard T.H. Chan School of Public Health, advised by Cindy W. Leung, and a registered dietitian nutritionist. She studies how federal nutrition programs, especially SNAP and SNAP-matching nutrition incentive programs, affect food security, diet quality, and chronic disease.
+
+## Key pages
+- Home: https://egahan23.github.io/esheinberg.github.io/
+- Research and publications: https://egahan23.github.io/esheinberg.github.io/research/
+- Teaching: https://egahan23.github.io/esheinberg.github.io/teaching/
+- Policy & Practice: https://egahan23.github.io/esheinberg.github.io/policy/
+- CV (PDF): https://egahan23.github.io/esheinberg.github.io/files/cv.pdf
+- Contact: esheinberg@g.harvard.edu

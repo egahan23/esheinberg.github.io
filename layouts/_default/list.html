@@ -1,0 +1,9 @@
+{{ define "main" }}
+<header class="page-head">
+  <h1 class="page-title">{{ .Title }}</h1>
+</header>
+<div class="prose">
+  {{ .Content }}
+</div>
+{{ range .Params.includes }}{{ partial (printf "%s.html" .) $ }}{{ end }}
+{{ end }}

@@ -1,0 +1,81 @@
+# Working papers and publications.
+# status: published | accepted | revise and resubmit | under review | working paper | work in progress
+# pdf: file in static/files/ (no leading slash). link: DOI or publisher URL.
+
+- title: "“Less like a Harvard student”: A qualitative study exploring food insecurity among graduate students in health sciences"
+  authors: ["Hammad, N.", "Sheinberg, E.", "Al Saeidi, N.", "Madan, P.", "Xiao, Y.", "Leung, C.W."]
+  status: "under review"
+  venue: "Journal of the Academy of Nutrition and Dietetics"
+  description: "Qualitative study of food insecurity among health sciences graduate students."
+
+- title: "“It was just chaos”: State SNAP Directors’ Experiences Implementing and De-implementing COVID-era SNAP Waivers"
+  authors: ["Antonacci, C.C.", "Uriarte, A.", "Sheinberg, E.", "Weston, C.W.", "Green, C.", "Hedderman, T.", "Laska, M.N.", "Leung, C.W.", "Wolfson, J.A."]
+  status: "work in progress"
+  description: "Interviews with state SNAP directors on implementing and unwinding pandemic-era program waivers."
+
+- title: "Youth Perspectives on Supplemental Nutrition Assistance Program Policy Changes due to House Resolution One"
+  authors: ["Sheinberg, E.", "Uriarte, A.", "Tisch, A.", "Waselewski, M.", "Brandt, E.J.", "Wolfson, J.A.", "Chang, T.", "Leung, C.W."]
+  status: "work in progress"
+  description: "National text-message poll of youth ages 14–24 on H.R. 1’s SNAP work requirements and benefit limits."
+
+- title: "Safety net program participation and churning during the COVID-19 pandemic: a longitudinal analysis of low-income California families"
+  authors: ["Dougan, S.", "Jackson, K.E.", "Hamad, R.", "Gosliner, W.", "Dang, K.", "Sheinberg, E.", "Fernald, L.C.W."]
+  year: 2026
+  status: "published"
+  venue: "SSM – Population Health"
+  citation: "35:101932"
+  pdf: "files/dougan-2026-safety-net-churning.pdf"
+  link: "https://doi.org/10.1016/j.ssmph.2026.101932"
+
+- title: "The intersection of diet quality and ultra-processed food intake: Using evidence-based categories to characterize differences in cardiometabolic profiles"
+  authors: ["Sheinberg, E.", "Schmidt, L.", "Mande, J.", "Martinez-Steele, E.", "Tobias, D.", "Leung, C."]
+  year: 2026
+  status: "published"
+  venue: "American Journal of Public Health"
+  pdf: "files/sheinberg-2026-diet-quality-upf.pdf"
+  link: "https://doi.org/10.2105/AJPH.2026.308494"
+
+- title: "Understanding the association of food insecurity and nutrition insecurity with diet quality: A cross-sectional analysis of two national samples"
+  authors: ["Sheinberg, E.", "Tucker, A.C.", "Uriarte, A.", "Weston, C.M.", "Antonacci, C.C.", "Laska, M.N.", "Wolfson, J.A.", "Leung, C.W."]
+  year: 2026
+  status: "published"
+  venue: "The American Journal of Clinical Nutrition"
+  citation: "123(2):101141"
+  pdf: "files/sheinberg-2026-fi-ni-diet-quality.pdf"
+  link: "https://doi.org/10.1016/j.ajcnut.2025.101141"
+
+- title: "New and recurring food insecurity during and after the COVID-19 pandemic in a nationally representative sample"
+  authors: ["Sheinberg, E.", "Insolera, N.", "Hammad, N.", "Uriarte, A.", "Weston, C.", "Laska, M.", "Wolfson, J.", "Leung, C."]
+  year: 2025
+  status: "published"
+  venue: "JAMA Health Forum"
+  citation: "6(9):e253603"
+  pdf: "files/sheinberg-2025-new-recurring-food-insecurity.pdf"
+  link: "https://doi.org/10.1001/jamahealthforum.2025.3603"
+
+- title: "The impact of sodium reduction on overall nutrient content in Child and Adult Care Food Program meals"
+  authors: ["Gahan, E.", "Hansotte, E.", "Lindstrom, E.", "Vaughn, S.", "Cummings, S."]
+  year: 2023
+  status: "published"
+  venue: "Public Health Nutrition"
+  citation: "26(11)"
+  pdf: "files/gahan-2023-sodium-cacfp.pdf"
+  link: "https://doi.org/10.1017/S1368980023001167"
+
+- title: "“You feel out of place”: A PhotoVoice study of the impact of food insecurity on college students"
+  authors: ["Gahan, E.", "Farooqui, S.", "Leung, C.W."]
+  year: 2022
+  status: "published"
+  venue: "Health Equity"
+  citation: "6:595–602"
+  pdf: "files/gahan-2022-photovoice-food-insecurity.pdf"
+  link: "https://doi.org/10.1089/heq.2022.0067"
+
+- title: "Sodium reduction in distributive meals through speed-scratch cooking"
+  authors: ["Hansotte, E.", "Gahan, E.", "Vaughn, S.", "Lindstrom, K.E.", "Cummings, S."]
+  year: 2021
+  status: "published"
+  venue: "Preventing Chronic Disease"
+  citation: "18:E75"
+  pdf: "files/hansotte-2021-sodium-speed-scratch.pdf"
+  link: "https://doi.org/10.5888/pcd18.210033"
