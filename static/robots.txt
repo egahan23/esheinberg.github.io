@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # A short summary for AI assistants is at /llms.txt
-Sitemap: https://egahan23.github.io/esheinberg.github.io/sitemap.xml
+Sitemap: https://elisesheinberg.com/sitemap.xml

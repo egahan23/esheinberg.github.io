@@ -71,4 +71,4 @@ brew install hugo
 hugo server
 ```
 
-Then open http://localhost:1313/esheinberg.github.io/.
+Then open http://localhost:1313/.
