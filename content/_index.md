@@ -2,7 +2,7 @@
 title: "Elise Sheinberg"
 ---
 
-I am a fourth-year PhD candidate in Population Health Sciences (Public Health Nutrition) at the Harvard T.H. Chan School of Public Health, advised by Dr. Cindy Leung, and a registered dietitian nutritionist. I study how federal nutrition programs, especially the Supplemental Nutrition Assistance Program (SNAP) and SNAP-matching nutrition incentive programs, affect food security, diet quality, and chronic disease.
+I am a fourth-year PhD candidate in Population Health Sciences (Public Health Nutrition) at the Harvard T.H. Chan School of Public Health, advised by Dr. Cindy Leung, and a registered dietitian nutritionist. I research structural determinants to nutrition and health including poverty, federal nutrition programs, and food access.  t
 
 My dissertation uses mixed methods to study how SNAP participants in Massachusetts and Indiana use nutrition incentives over time. In Massachusetts, I analyze SNAP and Healthy Incentives Program (HIP) administrative transaction data to understand who uses incentives and how their use changes over time. In Indiana, I combine longitudinal transaction data, program evaluation surveys, and qualitative interviews to understand how personal, social, and environmental contexts shape incentive use. My dissertation is supported by an American Heart Association Pre-Doctoral Fellowship.
 
